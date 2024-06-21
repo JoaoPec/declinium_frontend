@@ -1,0 +1,91 @@
+/* MainPage.module.css */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Faz com que o main ocupe a altura total da tela */
+  width: 100%; /* Faz com que o main ocupe a largura total da tela */
+  text-align: center; /* Centraliza o texto */
+  color: white;
+}
+
+.main .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container p {
+  margin-top: 30px;
+  font-size: 1.3em;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.container button {
+  margin-top: 20px;
+  padding: 15px 20px;
+  font-size: 1em;
+  background-color: #141414;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #1f1f1f;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons button {
+    width: 100%;
+  }
+
+  .container img {
+    width: 100%;
+  }
+
+  .container p {
+    font-size: 1em;
+  }
+
+  .container h1 {
+    font-size: 2em;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .buttons {
+    gap: 20px;
+  }
+
+  .container button {
+    padding: 10px 15px;
+  }
+
+  .container button {
+    margin-top: 10px;
+  }
+}

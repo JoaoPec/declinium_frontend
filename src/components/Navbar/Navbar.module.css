@@ -1,0 +1,76 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  position: fixed; /* Fix the navbar to the top */
+  top: 0; /* Position it at the very top */
+  left: 0;
+  width: 100%; /* Make it occupy the full width */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  max-width: 1200px; /* Optional: Limit the max-width for better layout on large screens */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.logo {
+  font-size: 1.5em;
+  color: white;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto; /* Push the nav links to the right */
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navLinks li a:hover {
+  background-color: #555;
+}
+
+.mobileMenuIcon {
+  display: none;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navLinks.mobileMenuOpen {
+    display: flex;
+  }
+
+  .mobileMenuIcon {
+    display: block;
+    margin-left: auto;
+    position: relative;
+    z-index: 1000;
+    right: 30px;
+  }
+}
