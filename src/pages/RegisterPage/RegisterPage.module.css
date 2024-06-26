@@ -1,0 +1,107 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #242424;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  min-width: 450px;
+  min-height: 500px;
+  padding: 30px;
+  background-color: #333;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 8px;
+  color: #e0e0e0;
+  font-weight: bold;
+}
+
+.inputGroup input {
+  width: 80%;
+  padding: 12px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #444;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.inputGroup input:focus {
+  outline: none;
+  border-color: #af0a02;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+
+.container button {
+  padding: 12px 20px;
+  font-size: 1em;
+  background-color: #141414;
+  color: white;
+  border: 1px solid #af0a02;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #1f1f1f;
+}
+
+.message {
+  margin-top: 20px;
+  color: #e0e0e0;
+}
+
+.message a {
+  color: #af0a02;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.message a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 65%;
+    min-width: auto;
+  }
+}

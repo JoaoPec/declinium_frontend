@@ -25,6 +25,7 @@ const MainPage = () => {
         </div>{" "}
       </main>
     </>
+
   );
 };
 

@@ -37,24 +37,7 @@
 
 /* Mobile styles */
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .center {
-    margin: 10px 0;
-  }
-
-  .center a {
-    margin: 0 5px;
-  }
-
-  .center a:hover {
-    color: white;
-  }
-
-  .left,
-  .right {
-    text-align: center;
+  footer {
+    display: none;
   }
 }

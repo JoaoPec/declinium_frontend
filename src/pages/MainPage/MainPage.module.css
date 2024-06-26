@@ -38,11 +38,11 @@
 
 .container button {
   margin-top: 20px;
-  padding: 15px 20px;
+  padding: 15px 25px;
   font-size: 1em;
   background-color: #141414;
   color: white;
-  border: none;
+  border-color: #af0a02;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;

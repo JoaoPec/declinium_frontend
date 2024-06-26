@@ -10,25 +10,11 @@ const Footer = () => {
         </div>
         <div className={classes.center}>
           <a
-            href="https://www.facebook.com"
+            href="https://www.youtube.com/@auroradocaosrpg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="ri-facebook-fill"></i>
-          </a>
-          <a
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="ri-twitter-fill"></i>
-          </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="ri-instagram-fill"></i>
+            <i className="ri-youtube-fill"></i>
           </a>
         </div>
         <div className={classes.right}>
